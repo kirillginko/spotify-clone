@@ -1,3 +1,5 @@
+import { findAllByDisplayValue } from "@testing-library/react";
+
 export const initialState = {
   user: null,
   playlists: [],
@@ -6,8 +8,6 @@ export const initialState = {
   top_artists: null,
   playing: false,
   item: null,
-  token:
-    "BQCw9PWzGEURNvVT12J649o2EIuHruAKfClMRARrDN2knzgQPa3ihgNDSq7asL-F_G3uDVkGY3joZplcj44kpKxwb8jSohRozLrGuHn6S0IPWpp6Wc0LUH_Eqh9rg6ynx5KpL2UaUhzILMaYqN5onxzepuyi28ifiQ",
 };
 
 const reducer = (state, action) => {
